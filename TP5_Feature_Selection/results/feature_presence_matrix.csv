@@ -1,0 +1,31 @@
+,Filter: correlation (B.2),"Filter: SelectKBest, F-score","Filter: SelectKBest, mutual information",Wrapper: Forward Selection,Wrapper: Backward Elimination,Wrapper: RFE,Wrapper: RFECV,Total Selections
+mean radius,0,1,1,1,0,0,0,3
+mean texture,0,1,1,1,0,0,0,3
+mean perimeter,0,1,1,1,0,0,0,3
+mean area,0,1,1,0,0,1,1,4
+mean smoothness,1,0,0,0,0,0,0,1
+mean compactness,1,1,1,1,0,0,0,4
+mean concavity,1,1,1,0,0,0,0,3
+mean concave points,0,1,1,0,0,1,0,3
+mean symmetry,1,0,0,0,0,0,0,1
+mean fractal dimension,1,0,0,0,0,0,0,1
+radius error,0,1,1,0,0,0,0,2
+texture error,1,0,0,1,1,0,0,3
+perimeter error,0,1,1,0,0,0,0,2
+area error,1,1,1,0,1,1,1,6
+smoothness error,1,0,0,1,1,0,0,3
+compactness error,1,0,0,0,0,0,0,1
+concavity error,1,0,1,0,0,0,0,2
+concave points error,1,1,1,0,0,0,0,3
+symmetry error,1,0,0,0,0,0,0,1
+fractal dimension error,1,0,0,0,1,0,0,2
+worst radius,0,1,1,1,1,1,1,6
+worst texture,1,1,1,1,1,1,1,7
+worst perimeter,1,1,1,1,1,1,1,7
+worst area,0,1,1,0,0,1,1,4
+worst smoothness,1,1,0,1,1,1,1,6
+worst compactness,1,1,1,0,0,0,0,3
+worst concavity,0,1,1,0,1,0,0,3
+worst concave points,1,1,1,0,0,1,1,5
+worst symmetry,1,1,1,0,1,1,0,5
+worst fractal dimension,1,0,0,0,0,0,0,1
